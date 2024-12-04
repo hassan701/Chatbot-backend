@@ -1,0 +1,17 @@
+curl -X POST -H "Content-Type: application/json" -d "{\"message\": \"sti\"}" http://127.0.0.1:80/chatbot
+
+"
+
+curl -X POST -H "Content-Type: application/json" -d "{\"message\": \"email message\"}" http://127.0.0.1:80/savemessage
+
+curl -X POST -H "Content-Type: application/json" -d "{\"message\": \"email\"}" http://127.0.0.1:80/loadmessages
+
+curl -X POST -H "Content-Type: application/json" -d "{\"message\": \"username fullname email password\"}" http://127.0.0.1:80/signup
+
+curl -X POST -H "Content-Type: application/json" -d "{\"message\": \"email password\"}" http://127.0.0.1:80/login
+
+curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://127.0.0.1:80/patterns
+curl -X POST -H "Content-Type: application/json" -d "{\"message\": \"sti\"}" http://127.0.0.1:80/patterns
+
+
+pattern_id
